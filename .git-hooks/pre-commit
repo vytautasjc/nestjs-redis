@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. .git-hooks/init-nvm
+
+npm run git:pre-commit

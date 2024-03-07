@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2022"],
+        "target": "ES2022",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "allowJs": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "outDir": "dist"
+    },
+    "ts-node": {
+        "transpileOnly": true
+    },
+    "exclude": ["node_modules", "migration", "dist", "coverage", "test"]
+}

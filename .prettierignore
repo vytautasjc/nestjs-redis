@@ -1,0 +1,4 @@
+**/*.d.ts
+!**/.eslintrc.js
+!**/*.spec.js
+!**/*.spec.integration.js
